@@ -1,12 +1,9 @@
-import { Button } from "@/components/ui/button";
-import { MainNavigationMenu } from "./test";
-import { ModeToggle } from "@/components/theme";
+import Headers from "@/components/common/Header/headers";
 
 export default function Home() {
   return (
     <main>
-      <MainNavigationMenu />
-      <ModeToggle />
+      <Headers />
     </main>
   );
 }
